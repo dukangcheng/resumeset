@@ -91,7 +91,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: transparent; display: block; overflow-x: hidden; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
@@ -152,7 +152,7 @@ iframe { max-width: 100%; width: 100%; border: none; }
 .CodeMirror { height: auto; }
 .CodeMirror.cm-s-inner { background: inherit; }
 .CodeMirror-scroll { overflow-y: hidden; overflow-x: auto; z-index: 3; }
-.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color:transparent; }
 .CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
 .CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
 .cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
@@ -217,7 +217,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
 .CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
 .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
 .CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
-.cm-searching { background: rgba(255, 255, 0, 0.4); }
+.cm-searching { background: transparent; }
 @media print {
   .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
 }
