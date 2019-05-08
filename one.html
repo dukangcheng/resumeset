@@ -1,0 +1,349 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>小杜简历 </title>
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<style>
+    html{
+        height: 100%;
+    }
+    body{
+        height: 168%;
+    }
+    .main{
+        /* width:75%; */
+        max-width:890px;
+        margin: 0 auto;
+        height: 100%;
+        
+    }    
+    .left{
+        background: #2F3A40;
+        width: 29%;
+        height: 100%;
+        float: left;
+        box-shadow: 10px 0px 50px -5px #2f3a40;
+        color: #fff;
+        /* padding-bottom: 40px; */
+    }
+    .right{
+        background: transparent;
+        width: 70%;
+        height: 100%;
+        border-right: 1px solid #eee;
+        float: right;
+    }
+    .header-img-wrapper{
+        width:100%;
+        margin: 35px auto;
+        text-align: center;
+    }
+    .header-img{
+        width: 150px;
+        height: 200px;
+
+        border-radius: 50%;
+    }
+    ul,li{
+        list-style: none;
+    }
+    ul, menu, dir {
+        display: block;
+        list-style-type: disc;
+        -webkit-margin-before: 0em;
+        -webkit-margin-after: 0em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 0px;
+    }
+    /* .info-list,.info-item{
+        display: block;
+        width: 100%;
+    } */
+    .info-label{
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 40px;
+        font-size: 18px;
+        color: #fff;
+    }
+    .info-item-group{
+        display: block;
+        color: #fff;
+        padding-left: 40px;
+    }
+    .link-label{
+        background: #FE7676;
+    }
+    .language-label{
+        background: #ADC646;
+    }
+    .skill-label{
+        background: #7EA4B7;
+    }
+    .hobbie-label{
+        background: #E78A1F;
+    }
+    .link-item-label{
+        width:100%;
+        display: block;
+    }
+    .item-label{
+        height: 1.5rem;
+        line-height: 1.5rem;
+        word-break: break-all;
+    }
+    li.info-group-item.hobbie-item,li.info-group-item.skill-item {
+       padding:5px;
+    }
+    .consume-title{
+        color: #fff;
+        font-size: 48px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* font-weight: 700; */
+    }
+    .icon{
+        background-size: 100%;
+        /* line-height: 40px; */
+        height: 40px;
+        display: inline-block;
+        float: left;
+        width: 20%;
+        /* margin-right: 20px; */
+    }
+    .home-icon{
+        background-image: url('./icons/home.svg');
+    }
+    .email-icon{
+        background-image: url('./icons/email.svg');
+    }
+    .phone-icon{
+        background-image: url('./icons/phone.svg');
+    }
+    .link-item-box {
+        display: inline-block;
+        float: right;
+        width: 70%;
+    }
+    li.info-group-item.link-item {
+        padding: 5px;
+        min-height: 60px;
+    }
+    
+    .consume-header{
+        width: 100%;
+        text-align: center;
+        height: 150px;
+        line-height: 150px;
+        background:#2F3A40;
+        background-image:
+        radial-gradient(closest-side, transparent 98%,rgba(0,0,0,1) 99%),
+        radial-gradient(closest-side,transparent 98%,rgba(0,0,0,1) 99%);
+        /*上下两个圆错开相交*/
+        background-position: 0 0px,40px 40px;
+        background-size: 80px 80px;
+    }
+    .consume-item-title{
+        text-align: left;
+        font-size: 30px;
+    }
+    .consume-item-box {
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+    .consume-note{
+        font-size: 14px;
+    }
+    label.consume-first-item-title {
+        display: block;
+        font-size: 22px;
+    }
+    label.consume-second-item-title {
+        font-size: 18px;
+        height: 40px;
+        line-height: 40px;
+        font-weight: 600;
+        /* padding: 10px; */
+    }
+    p.consume-item-content {
+        display: block;
+        -webkit-margin-before: 0em;
+        -webkit-margin-after: 0em;
+        -webkit-margin-start: 0px;
+        line-height: 30px;
+        -webkit-margin-end: 0px;
+    }
+    .consume-first-item-box {
+        margin: 15px auto;
+    }
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="header-img-wrapper">
+                <img src="./images/header.jpg" class="header-img"/>
+            </div>
+            <div class="info-list">
+                <div class="info-item">
+                    <label class="info-label link-label">联系方式</label>
+                    <ul class="info-item-group link-list">
+                        <li class="info-group-item link-item">
+                            <span class='home-icon icon'></span>
+                            <div class="link-item-box">
+                                <label class="link-item-label item-label">洪山区</label>
+                                <label class="link-item-label item-label">武汉市</label>
+                            </div>
+                        </li>
+                       <li class="info-group-item link-item">
+                            <span class="email-icon icon"></span>
+                            <div class="link-item-box">
+                                <label class="link-item-label item-label">kangchengdu@gmail.com</label>
+                            </div>
+                        </li>
+                        <li class="info-group-item link-item">
+                            <span class="phone-icon icon"></span>
+                            <div class="link-item-box">
+                                <label class="link-item-label item-label">13423786201</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="info-item">
+                    <label class="info-label language-label">语言</label>
+                    <ul class="info-item-group link-list">
+                        <li class="info-group-item link-item">
+                            <span class="home-icon icon"></span>
+                            <div class="link-item-box">
+                                <label class="link-item-label item-label">洪山区</label>
+                                <label class="link-item-label item-label">武汉市</label>
+                            </div>
+                        </li>
+                        <li class="info-group-item link-item">
+                            <span class="home-icon icon"></span>
+                            <div class="link-item-box">
+                                <label class="link-item-label item-label">kangchengdu@gmail.com</label>
+                            </div>
+                        </li>
+                        <li class="info-group-item link-item">
+                            <span class="home-icon icon"></span>
+                            <div class="link-item-box">
+                                <label class="link-item-label item-label">13423786201</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div> -->
+                <div class="info-item">
+                    <label class="info-label skill-label">技能栈</label>
+                    <ul class="info-item-group skill-list">
+                        <li class="info-group-item skill-item">
+                            <label class="skill-item-label">Node.js</label>
+                        </li>
+                        <li class="info-group-item skill-item">
+                            <label class="skill-item-label">Express</label>
+                        </li>
+                        <li class="info-group-item skill-item">
+                            <label class="skill-item-label">SenecaJS</label>
+                        </li>
+                        <li class="info-group-item skill-item">
+                            <label class="skill-item-label">MySQL / SQLServer</label>
+                        </li>
+                        <li class="info-group-item skill-item">
+                            <label class="skill-item-label">MongoDB</label>
+                        </li>
+                        <li class="info-group-item skill-item">
+                            <label class="skill-item-label">webpack</label>
+                        </li>
+                        <li class="info-group-item skill-item">
+                            <label class="skill-item-label">napajs</label>
+                        </li>
+                        <li class="info-group-item skill-item">
+                            <label class="skill-item-label">Sequelize.js</label>
+                        </li>
+                        <li class="info-group-item skill-item">
+                            <label class="skill-item-label">npm / yarn</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-item">
+                    <label class="info-label hobbie-label">爱好</label> 
+                    <ul class="info-item-group hobbie-list">
+                        <li class="info-group-item hobbie-item">
+                            <label class="hobbie-item-label">羽毛球</label>
+                        </li>
+                        <li class="info-group-item hobbie-item">
+                            <label class="hobbie-item-label">乒乓球</label>
+                        </li>
+                        <li class="info-group-item hobbie-item">
+                            <label class="hobbie-item-label">爬山</label>
+                        </li>
+                        <li class="info-group-item hobbie-item">
+                            <label class="hobbie-item-label">户外运动</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="consume-header">
+                <label class="consume-title">个人简历</label>
+            </div>
+            <div class="comsume-main">
+                <div class="consume-item-box">
+                    <labe  class="consume-item-title">工作经历</labe>
+                    <div class="consume-item-content">
+                        <p class="consume-note">（工作经历按逆序排列，最新的在最前边，按公司做一级分组，公司内按二级分组）</p>
+                        <div  class="consume-first-item-box">
+                            <label class="consume-first-item-title">北极熊电子商务有限公司(2017年4月 ~ 2019年4月)</label>
+                            <label class="consume-second-item-title">电商项目</label>
+                            <p  class="consume-item-content"> &nbsp; &nbsp; 
+                                1.商城用户端的全部开发工作: 商城的展现，商城的后台逻辑以及商城api接口等开发工作。商城采用了node+php的模式开发，
+                                在商城的页面逻辑以及渲染上采用node+express开发，基于node端不太适合处理计算量比较大的工作，后台接口则采用php进行开发，
+                                比如产生订单的逻辑，登录注册的逻辑等。前后端则采用http协议进行通信，通信时会加上适当的密钥鉴定工作，如对参数进行加密后传输等。
+                                商城提供了基本的商品浏览及浏览记录，购买商品，商品分类，购物车，用户中心，商品收藏，实时商品检索，物流详情查看等。其中商品检索使用了ES的服务，
+                                物流详情则采用百度地图api对物流订单进行的跟踪
+                            </p>
+                            <p  class="consume-item-content">&nbsp; &nbsp; 
+                                2.商城管理后台的部分开发工作：如权限管理模块，商品检索模块，后台接口管理模块等，
+                                管理后台采用了Yii2.0框架搭建，前端采用bootstrap、jQuery等框架进行展示处理，
+                                数据库则SQLServer提供基础数据，Redis则提供部分高频率数据或者缓存数据等
+                            </p>
+                            <label class="consume-second-item-title">B/S架构呼叫中心</label>
+                            <p  class="consume-item-content">
+                                &nbsp;&nbsp;
+                                项目中负责B/S架构呼叫中心的基础框架搭建，以及主要业务开发工作：如坐席呼叫，创建新单，客户管理，客户转单，转换门店等业务开发工作，该项目主要采用ExtJS4.1,JQ,PHP及Yii等框架或技术进行的开发：前后端通信方式采用HTTP进行通信，通信数据格式采用json结构的数据。开发过程中逐步将ExtJS转换成ExtjsMVC的模式进行开发，这样可以则可以将大量的模块和组件进行复用，提高了开发效率。
+                            </p>
+                            <label class="consume-second-item-title">其他项目</label>
+                            <p  class="consume-item-content">
+                                &nbsp;&nbsp;
+                                门店端项目开发，其开发模式同呼叫中心，负责主要结构的设计工作以及部分业务模块的开发工作，
+                                采用技术架构同呼叫中心。配送端项目开发，安卓项目，独立开发业务功能模块。</p>
+                        </div>
+                        <div class="consume-first-item-box">
+                            <label class="consume-first-item-title">一点联合网络科技有限公司(2016年3月 ~ 2017年3月)</label>
+                            <label class="consume-second-item-title">移动端开户</label>
+                            <p class="consume-item-content">
+                                &nbsp;&nbsp;
+                                前端页面开发，采用js，html5，css，jQuery，SUI等技术进行开发，独立负责页面展现部分的开发：
+                                根据产品经理设计出来的原型，进行界面的开发，前后端采用HTTP通信协议通信，json格式传送数据。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="consume-item-box">
+                    <labe class="consume-item-title">学习经历</labe>
+                    <div  class="consume-first-item-box">
+                        <label class="consume-first-item-title">2009年10月 ~ 2013年6月</label>
+                        <label class="consume-second-item-title">华中农业大学 / 本科</label>
+                    </div>
+                </div>
+                <div class="consume-item-box">
+                    <labe class="consume-item-title">致谢</labe>
+                    <p>您花时间阅读我的简历，期待能有机会和您共事！</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>
